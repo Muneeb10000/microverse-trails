@@ -1,9 +1,34 @@
 #img-div{
     display:flex;
     flex-direction:column;
+    text-align: center;
+    background-color:white;
 }
 
 #image {
     display: block;
-    max-width: 100%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#main{
+    background-color: #eeeeee;
+    display:flex;
+    flex-direction:column;
+}
+#tribute-info{
+    text-align: center;
+}
+#tribute-info ul{
+    text-align: left;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+#tribute-info ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: larger;
+    text-align: justify;
+    font-family:serif;
 }
