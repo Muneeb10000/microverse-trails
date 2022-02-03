@@ -1,0 +1,9 @@
+#img-div{
+    display:flex;
+    flex-direction:column;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+}
